@@ -1,4 +1,4 @@
-# NxWorkspace
+# nx-getting-started
 
 This project was generated using [Nx](https://nx.dev).
 
