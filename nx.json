@@ -23,6 +23,23 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "my-app": {
+      "tags": []
+    },
+    "my-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-app"]
+    },
+    "my-angular-app": {
+      "tags": []
+    },
+    "my-angular-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-angular-app"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
