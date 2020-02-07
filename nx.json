@@ -1,0 +1,28 @@
+{
+  "npmScope": "nx-workspace",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "react-express-app": {
+      "tags": []
+    },
+    "react-express-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-express-app"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
